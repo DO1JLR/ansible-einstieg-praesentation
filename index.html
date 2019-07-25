@@ -4,11 +4,18 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Ansible - Einstieg</title>
+
+		<meta name="description" content="Einstieg in Ansible - ein Open-Source Automatisierungs-Werkzeug zur Orchestrierung und allgemeinen Konfiguration und Administration von einer vielzahl an Computern.">
+		<meta name="author" content="L3D">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/footer.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -21,10 +28,21 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			#index-page #footer,
+			#index-page #myLogo {
+				display: none;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
+				<div id="myLogo" style="padding-left: 2%;"><img align="left" src="media/oio-logo.png" style="max-height: 90px;"/></div>
+				<div id="footer" class="footer">
+					Open Infrastructure Orbit, Opening Session, 27. December 2018
+				</div>
+				<section data-separator-vertical="^\n--\n$" data-markdown="title.md"></section>
 				<section>Slide 1</section>
 				<section>Slide 2</section>
 			</div>
