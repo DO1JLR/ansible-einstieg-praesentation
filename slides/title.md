@@ -2,7 +2,7 @@
 ========
 ``Einstieg``
 
---
+----
 
  Ansible
 =======
@@ -10,7 +10,7 @@
 > 
 > *Quelle: [wikipedia.org](https://de.wikipedia.org/wiki/Ansible)*
 
---
+----
 
  Why Ansible
 ============
