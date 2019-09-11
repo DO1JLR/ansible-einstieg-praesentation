@@ -153,7 +153,9 @@
      id="path831"
      cx="700.91193"
      cy="637.06793"
-     r="400.51788" />
+     r="400.51788" >
+<animate attributeName="r" begin="23s" dur="10s" repeatCount="indefinite" values="400;415;399;420;400"/>
+   </circle>
   <ellipse
      cy="637.06793"
      cx="702.03137"
