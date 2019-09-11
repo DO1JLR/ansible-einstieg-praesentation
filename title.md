@@ -12,4 +12,7 @@
 
 --
 
-### Thank you!
+ Why Ansible
+============
+
+![why ansible](.media/why_ansible.svg "why ansible")
