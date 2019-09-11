@@ -1,9 +1,6 @@
  Ansible
 ========
-
-### Was ist das?
-### Was kann das?
-### Will ich das?
+``Einstieg``
 
 --
 
