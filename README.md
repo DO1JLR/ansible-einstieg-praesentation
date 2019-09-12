@@ -20,3 +20,12 @@ Eine Einführung in Ansible....
    - github
    - galaxy
    - git submodules...
+
+ Präsentation
+---------------
+
+Ein Webserver wird benötigt um die JavaScript Magie richtig wirken zu lassen. Beispielsweise den Python3 HTTP Server:
+```bash
+# run tiny web server on port 8000
+python3 -m http.server
+```
