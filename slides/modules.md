@@ -3,6 +3,8 @@
 
 ----
 
+ ping_module
+----------
 ```bash
 # example for commandline
 $ ansible localhost -m ping
@@ -46,3 +48,7 @@ localhost | SUCCESS => {
 |-|-|
 |``backup`` | Create a backup file including the timestamp information so you can get the original file back if you somehow clobbered it incorrectly.|
 | ``validate`` | The validation command to run before copying into place.|
+
+----
+
+<script src="http://localhost:8000/14.js" id="asciicast-14" async data-autoplay="true" data-size="big"></script>
