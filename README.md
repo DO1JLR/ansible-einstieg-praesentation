@@ -29,3 +29,12 @@ Ein Webserver wird benötigt um die JavaScript Magie richtig wirken zu lassen. B
 # run tiny web server on port 8000
 python3 -m http.server
 ```
+
+tl;dr
+**Simply run the presentation by executing ``make``**
+```bash
+# install all needs
+make install
+# run praesentation
+make
+```
