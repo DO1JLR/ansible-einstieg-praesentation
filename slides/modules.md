@@ -38,13 +38,10 @@ $ ansible localhost -m shell -a "whoami"
 
 ```yaml
 ---
-- name: run bash commands
-  hosts: localhost
-  tasks:
-    - name: run whoami and ddate from shell
-      shell: |
-        whoami
-        ddate
+- name: run whoami and ddate from shell
+  shell: |
+    whoami
+    ddate
 ```
 <img src=".media/shell_playbook_demo.svg" />
 
