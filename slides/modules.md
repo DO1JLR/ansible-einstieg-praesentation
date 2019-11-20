@@ -72,4 +72,3 @@ $ ansible localhost -m shell -a "whoami"
 
 ----
 
-<script src="http://localhost:8000/14.js" id="asciicast-14" async data-autoplay="true" data-size="big"></script>
